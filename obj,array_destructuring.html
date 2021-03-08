@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object and Array Destructuring</title>
+    <h1 style="text-align: center;">Object and Array Destructuring</h1>
+</head>
+<body>
+    <script>
+        let obj1={
+            name:"vamshi krishna",
+            roll:"p0",
+            branch:"cse",
+        }
+        let {name:na,roll:ro,branch:br}=obj1;
+        console.log("name : "+na+" , roll no : "+ro+" , branch : "+br);
+
+
+        let a=["vk",50,"cs"];
+        let [name,roll,branch]=a;
+        console.log("name : "+name+" , roll : "+roll+" , branch : "+branch);
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <h1 style="text-align: center;">js array methods</h1>
+    </head>
+    <body>
+        <script>
+            var a=['a','b','c','d']
+            console.log("array elements");
+            for(let i of a){
+                console.log(i +" ");
+            }
+            console.log("---------------");
+            console.log("push e");
+            a.push('e');
+            console.log(a);
+            console.log("---------------");
+            console.log("executing pop method");
+            a.pop()
+            console.log(a);
+            console.log("---------------");
+            console.log("executing shift method");
+            a.shift();
+            console.log(a);
+            console.log("---------------");
+            console.log("executing unshift method to add z");
+            a.unshift('z');
+            console.log(a);
+            console.log("---------------");
+            console.log("executing slice method");
+            var b=a.slice(1,3);
+            console.log(b);
+        </script>
+    </body>
+</html>

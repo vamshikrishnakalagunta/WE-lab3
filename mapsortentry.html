@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <h1 style="text-align: center;">map, sort, entry</h1>
+    </head>
+    <body>
+        <script>
+            var a=[4,2,5,1,7];
+            console.log("array elements : "+a);
+            a.sort();
+            console.log("after sorting : "+a);
+            console.log("--------------------");
+            console.log("mapping");
+            var b=a.map(mul2);
+            function mul2(Value){
+                return Value*2;
+            }
+            console.log(b);
+            console.log("--------------------");
+            console.log("entries");
+            var c=a.entries();
+            for(let i of c)
+                console.log(i);
+        </script>
+    </body>
+</html>
